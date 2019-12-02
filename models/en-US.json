@@ -1,0 +1,55 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "iot virtual",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help",
+                        "what can you do"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "say hello",
+                        "say hello world",
+                        "hello",
+                        "say hi",
+                        "say hi world",
+                        "hi",
+                        "how are you"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "FanIntent",
+                    "slots": [],
+                    "samples": [
+                        "turn on the fan"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
